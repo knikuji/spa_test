@@ -18,3 +18,25 @@
   font-weight: bold;
   border-bottom: solid 1px currentColor;
 }
+
+.works_container {
+  width: 100%;
+  max-width: 1000px;
+  padding-block: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.work_grid {
+  display: block;
+  background-color: #000;
+}
+.work_grid a {
+  display: block;
+}
+.work_grid a img {
+  max-width: 100%;
+}

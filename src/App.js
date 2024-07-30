@@ -8,6 +8,7 @@ import {
 import './css/main.css';
 import Home from './parts/Home';
 import About from './parts/About';
+import Works from './parts/Works';
 import Contact from './parts/Contact';
 
 
@@ -20,6 +21,7 @@ const App = () => {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
+                        <li><Link to="/works">Works</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
@@ -28,6 +30,7 @@ const App = () => {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
+                        <Route path="/works" element={<Works />} />
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                     </div> 
