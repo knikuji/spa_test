@@ -1,0 +1,20 @@
+.grand_wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grand_wrapper h2 {
+  margin: 20px auto;
+}
+.grand_wrapper p {
+  margin: 10px auto;
+}
+.grand_wrapper a {
+  font-size: 1.1em;
+  font-weight: bold;
+  border-bottom: solid 1px currentColor;
+}

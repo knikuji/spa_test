@@ -5,7 +5,7 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import './css/_/reset.css';
+import './css/main.css';
 import Home from './parts/Home';
 import About from './parts/About';
 import Contact from './parts/Contact';
@@ -24,11 +24,13 @@ const App = () => {
                     </ul>
                 </nav>
                 <main>
+                    <div className="grand_wrapper">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
+                    </div> 
                 </main>
                 <Footer /> 
             </div>

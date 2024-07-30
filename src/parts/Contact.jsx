@@ -7,11 +7,11 @@ const Contact = () => {
         alert(`You searched for '${query}'`);
       };
     return(
-        <div className="inner form_inner">
-        <form action="{search}">
+    <div className="grand_wrapper contact_wrapper">
+        {/* <form action="{search}">
         <input name="query" />
         <button type="submit">Search</button>
-        </form>
+        </form> */}
     </div>
     );
     
