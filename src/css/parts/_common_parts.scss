@@ -1,8 +1,8 @@
 .grand_wrapper{
-    width: 100%;
+    width: 90%;
     max-width:1000px;
     margin: 0 auto;
-    padding-bottom:100px;
+    padding-block:100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,5 +17,11 @@
         font-size:1.1em;
         font-weight:bold;
         border-bottom: solid 1px currentColor;
+    }
+}
+
+@media(max-width:670px){
+    .grand_wrapper{
+        padding-top:70px;
     }
 }

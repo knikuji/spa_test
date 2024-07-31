@@ -17,35 +17,35 @@ const App = () => {
         <Router>
             <div>
                 <Header />
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/works">Works</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </ul>
-                </nav>
                 <main>
                     <div className="grand_wrapper">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/works" element={<Works />} />
-                        <Route path="/contact" element={<Contact />} />
-                    </Routes>
-                    </div> 
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/works" element={<Works />} />
+                            <Route path="/contact" element={<Contact />} />
+                        </Routes>
+                    </div>
                 </main>
-                <Footer /> 
+                <Footer />
             </div>
-            
-        </Router>   
-        
+
+        </Router>
+
     );
 };
 
 const Header = () => (
     <header>
         <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/works">Works</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+            </ul>
+        </nav>
     </header>
 );
 
